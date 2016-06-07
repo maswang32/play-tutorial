@@ -1,4 +1,8 @@
 # Application dependencies
 
 require:
-    - play
+    - play -> crud
+#    - play -> cobertura 2.4
+#Import the secure module
+    - secure
+#Import the cobertura module in application

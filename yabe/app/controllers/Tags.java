@@ -3,5 +3,11 @@ package controllers;
 /**
  * Created by maswang on 6/1/2016.
  */
-public class Tags {
+import play.*;
+import play.mvc.*;
+
+@Check("admin")
+@With(Secure.class)
+public class Tags extends CRUD
+{
 }

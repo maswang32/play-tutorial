@@ -3,5 +3,13 @@ package controllers;
 /**
  * Created by maswang on 6/1/2016.
  */
-public class Comments {
+
+
+
+import play.*;
+import play.mvc.*;
+
+@Check("admin")
+@With(Secure.class)
+public class Comments extends CRUD {
 }

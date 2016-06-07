@@ -2,8 +2,27 @@
 # This file defines all application routes (Higher priority routes first)
 # ~~~~
 
+
 # Home page
 GET     /                                       Application.index
+GET	/posts/{<[0-9]+>id}				            Application.show
+GET /posts/{tag}                                Application.listTagged
+GET	/captcha				Application.captcha
+
+#Administration
+GET     /admin/?                                Admin.index
+GET     /admin/myPosts/{id}                     Admin.form
+GET     /admin/new                              Admin.form
+
+
+POST    /admin/myPosts/{id}                     Admin.save
+POST    /admin/new                              Admin.save
+*       /admin                                  module:crud
+
+#Import Secure routes
+*       /                                       module:secure
+
+
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

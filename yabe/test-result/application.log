@@ -1,0 +1,9 @@
+03 Jun 2016 08:22:26,473 INFO  ~ Starting H:\yabe
+03 Jun 2016 08:22:26,943 INFO  ~ Module crud is available (C:\play-1.3.4\play-1.3.4\modules\crud)
+03 Jun 2016 08:22:26,943 INFO  ~ Module secure is available (C:\play-1.3.4\play-1.3.4\modules\secure)
+03 Jun 2016 08:22:27,889 WARN  ~ You're running Play! in DEV mode
+03 Jun 2016 08:22:28,044 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+03 Jun 2016 08:22:47,121 INFO  ~ Connected to jdbc:h2:mem:play;MODE=MYSQL;LOCK_MODE=0 for default
+03 Jun 2016 08:22:49,351 INFO  ~ Application 'Yet Another Blog Engine' is now started !
+03 Jun 2016 08:23:00,191 WARN  ~ [DEPRECATION] Encountered positional parameter near line 1, column 35.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.
+03 Jun 2016 08:23:00,200 WARN  ~ [DEPRECATION] Encountered positional parameter near line 1, column 35.  Positional parameter are considered deprecated; use named parameters or JPA-style positional parameters instead.

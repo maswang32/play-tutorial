@@ -1,0 +1,30 @@
+# Ignore all dotfiles...
+.*
+
+# except for .gitignore
+!.gitignore
+
+# Ignore Play! working directory #
+/modules
+/db
+/log
+/logs
+/precompiled
+/test-result
+/docs
+/redis
+/tmp
+# Ignore lib (you'll get this directory by running "play dependencies --sync")
+/lib
+
+server.pid
+.idea
+*.ipr
+*.iml
+*.ids
+*.iws
+*.log
+
+# ignore profiler files
+*.hprof
+
